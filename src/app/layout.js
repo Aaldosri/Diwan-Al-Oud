@@ -1,6 +1,7 @@
 import { Aref_Ruqaa, IBM_Plex_Sans_Arabic, Inter } from "next/font/google";
 import { siteConfig } from "@/content/site.config";
 import "./globals.css";
+import GoogleAnalytics from "@/components/analytics/GoogleAnalytics";
 
 // خط العناوين — طابع خط عربي كلاسيكي أصيل، للعناوين الكبيرة فقط (استخدم font-display)
 const arefRuqaa = Aref_Ruqaa({
@@ -45,6 +46,8 @@ export default function RootLayout({ children }) {
       <body
         className={`${arefRuqaa.variable} ${ibmPlexSansArabic.variable} ${inter.variable} font-arabic antialiased bg-oud-dark text-oud-ivory`}
       >
+        <GoogleAnalytics />
+
         {children}
       </body>
     </html>
