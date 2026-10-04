@@ -14,5 +14,4 @@ Diwan-Al-Oud is a bespoke digital web solution meticulously crafted for a high-e
 
 ## 👤 Author
 * Abdullah
-* [GitHub Profile](https://github.com/YOUR_USERNAME)
-* [LinkedIn Profile](https://www.linkedin.com/in/YOUR_LINKEDIN)
+* [LinkedIn Profile](https://www.linkedin.com/in/abdullah-al-dosary-3650513a4/?isSelfProfile=false)
