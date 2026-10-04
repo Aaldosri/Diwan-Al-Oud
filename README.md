@@ -1,4 +1,4 @@
-# Diwan-Al-Oud 🌙⚖️
+# Diwan-Al-Oud ✨
 
 ## 🚀 About The Project
 Diwan-Al-Oud is a bespoke digital web solution meticulously crafted for a high-end fragrance client. The project bridges luxury aesthetic design with modern, high-performance web architecture.
