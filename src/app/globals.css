@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================================
+   هوية "ديوان العود" — قيم RGB (بدون rgb()) لتفعيل معدِّلات الشفافية في Tailwind
+   ============================================================================ */
+:root {
+  --color-oud-dark: 28 24 21; /* #1C1815 */
+  --color-oud-brown: 61 43 31; /* #3D2B1F */
+  --color-oud-copper: 156 122 68; /* #9C7A44 */
+  --color-oud-ivory: 237 230 214; /* #EDE6D6 */
+  --color-oud-maroon: 107 39 55; /* #6B2737 */
+}
+
+::selection {
+  background-color: rgb(var(--color-oud-copper) / 0.35);
+  color: rgb(var(--color-oud-dark));
+}
+
+/* شريط تمرير هادئ يتماشى مع الطابع الداكن الفاخر */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(var(--color-oud-dark));
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--color-oud-brown));
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--color-oud-copper) / 0.7);
+}
